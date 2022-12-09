@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef946de8-0c75-4164-aa4d-51b5059f39b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/controllers/favorite-drinks-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/controllers/reviews-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/favorite-drinks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/models/reviews.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/drink-details/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/home/Comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/review/comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/review/review.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/search-page/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/services/favorite-drinks-service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/services/reviews-service.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2IEkU9c3vHQXYSluWO8pN0VABy6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef946de8-0c75-4164-aa4d-51b5059f39b4" name="Default Changelist" comment="" />
+      <created>1669754142080</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669754142080</updated>
+      <workItem from="1669754143141" duration="8596000" />
+      <workItem from="1669825266219" duration="617000" />
+      <workItem from="1669825899065" duration="22000" />
+      <workItem from="1669825931216" duration="10773000" />
+      <workItem from="1670006315210" duration="5926000" />
+      <workItem from="1670021995104" duration="9713000" />
+      <workItem from="1670192736429" duration="471000" />
+      <workItem from="1670369905033" duration="20000" />
+      <workItem from="1670594274358" duration="15073000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1669825919451">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1669825919451" />
+    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1670608280165">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1670608280165" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1670606016584">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1670606016584" />
+  </component>
+</project>
