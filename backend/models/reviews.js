@@ -26,6 +26,8 @@ export const reviewsModel = mongoose.model("ReviewModel", reviewsSchema);
 
 export const findUserDrinkReview = (userId, drinkId) =>
     reviewsModel.findOne({ userId: userId, drinkId: drinkId });
+export const deleteUserDrinkReview = (userId, drinkId) =>
+    reviewsModel.deleteMany({ userId: userId, drinkId: drinkId });
 export const findAllUserReviews = (userId) =>
     reviewsModel.find({ userId: userId }).sort({ date: -1 });
 export const findAllDrinkReviews = (drinkId) =>

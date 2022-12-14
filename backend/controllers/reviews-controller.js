@@ -2,6 +2,7 @@ import * as reviewsModel from "../models/reviews.js";
 
 const reviewsController = (app) => {
   app.get("/api/reviews/:uid/:did", findUserDrinkReview);
+  app.delete("/api/deletereview/:uid/:did", deleteUserDrinkReview);
   app.get("/api/reviews/:id", findAllReviews);
   app.put("/api/reviews", updateReview);
   app.get("/api/reviews/mostOccurringUsers", findMostOccurringUsers);
@@ -13,6 +14,13 @@ const findUserDrinkReview = async (req, res) => {
   const drinkId = req.params.did;
   const review = await reviewsModel.findUserDrinkReview(userId, drinkId);
   res.json(review);
+};
+
+const deleteUserDrinkReview = async (req, res) => {
+  const userId = req.params.uid;
+  const drinkId = req.params.did;
+  const status = await reviewsModel.deleteUserDrinkReview(userId, drinkId);
+  res.json(status);
 };
 
 const findAllReviews = async (req, res) => {

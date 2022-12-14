@@ -34,7 +34,7 @@ const Nav = ({ active = "" }) => {
   const renderUserView = () => {
     return (
       <>
-        <div className="navbar-text me-4">Welcome {profile.fullName}!</div>
+        <div className="navbar-text me-4">Logged in as {profile.fullName}</div>
         <div className="nav-item">
           <div className="btn nav-link" onClick={logout}>
             Logout
@@ -69,7 +69,7 @@ const Nav = ({ active = "" }) => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light navbarcolor">
+    <nav className="navbar navbar-expand-lg navbar-light bg-warning">
       <div className="container-fluid">
         <Link to="/" className="navbar-brand">
           Drinks!

@@ -11,6 +11,11 @@ export const getUserDrinkReview = async (userId, drinkId) => {
   return response.data;
 };
 
+export const deleteUserDrinkReview = async (userId, drinkId) => {
+  const response = await api.delete(`${API_BASE}/deletereview/${userId}/${drinkId}`);
+  return response.data;
+};
+
 export const getAllUserReviews = async (userId) => {
   const response = await api.get(`${REVIEWS_API}/${userId}`);
   return response.data;

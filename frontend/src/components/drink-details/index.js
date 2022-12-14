@@ -277,7 +277,8 @@ const DrinkDetails = () => {
         </div>
         <div className="row mb-4">
           {allComments.map((comment) => {
-            return <DrinkComment key={comment._id} comment={comment} />;
+            return <DrinkComment key={comment._id} comment={comment} isAuthor={comment.userId === profile._id}
+                                 userId={comment.userId} drinkId={comment.drinkId} />;
           })}
         </div>
       </div>

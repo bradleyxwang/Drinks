@@ -228,7 +228,7 @@ const Profile = () => {
                 setShowPersonalInfo(!showPersonalInfo);
               }}
             >
-              {`${showPersonalInfo ? "Show" : "Hide"} Personal Information`}
+              {`${showPersonalInfo ? "" : ""}My Personal Information`}
             </button>
           </p>
           <div className="collapse" id="accountInfo">
@@ -266,16 +266,7 @@ const Profile = () => {
       <div className="container">
         <div className="row mt-4">
           <div className="col-12">
-            <h1>Profile{profile && `: ${profile.fullName}`}</h1>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-12">
-            {profile && (
-              <h4 className="text-info">
-                Member since {renderDateStr(profile.registerDate)}
-              </h4>
-            )}
+            <h1>User{profile && `: ${profile.fullName}`}</h1>
           </div>
         </div>
         {params.uid ? <></> : renderPersonalInfo()}
@@ -288,6 +279,7 @@ const Profile = () => {
               profile && profile.barName : profile && profile.favoriteDrink
           }
         </h5>
+        <h5>Join Date: {profile && renderDateStr(profile.registerDate)}</h5>
 
 
         {profile && profile.role === "Bartender" ?
